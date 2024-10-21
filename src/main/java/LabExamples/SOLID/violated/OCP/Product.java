@@ -1,13 +1,11 @@
 package LabExamples.SOLID.violated.OCP;
 
-enum Color
-{
-  RED, GREEN, BLUE
+enum Color {
+	RED, GREEN, BLUE
 }
 
-enum Size
-{
-  SMALL, MEDIUM, LARGE, HUGE
+enum Size {
+	SMALL, MEDIUM, LARGE, HUGE
 }
 
 public class Product {

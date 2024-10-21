@@ -8,7 +8,7 @@ public class Main {
 
         // Create an instance of OldFashionedPrinter
         OldFashionedPrinter oldFashionedPrinter = new OldFashionedPrinter();
-        
+
         // Print using the old fashioned printer
         System.out.println("Using OldFashionedPrinter:");
         oldFashionedPrinter.print(document);
@@ -32,7 +32,7 @@ public class Main {
         // Print, fax, and scan using the multi-function printer
         System.out.println("\nUsing MultiFunctionPrinter:");
         multiFunctionPrinter.print(document);
-        
+
         try {
             multiFunctionPrinter.fax(document);
         } catch (Exception e) {

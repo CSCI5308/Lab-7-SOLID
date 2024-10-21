@@ -1,12 +1,12 @@
 package LabExamples.SOLID.violated.LSP;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
 	@Override
 	public void startEngine() {
 		isEngineRunning = true;
 		System.out.println("Starting the engine.");
-		
+
 	}
 
 	@Override
