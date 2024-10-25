@@ -6,7 +6,7 @@ public class Project {
         BackEndDeveloper backEndDeveloper = new BackEndDeveloper();
         FrontEndDeveloper frontEndDeveloper = new FrontEndDeveloper();
 
-        backEndDeveloper.writeJava();
+        backEndDeveloper.writeNodejs();
         frontEndDeveloper.writeJavascript();
     }
 }
